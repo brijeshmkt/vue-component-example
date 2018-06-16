@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Getting Started with Vue JS</title>
+    </head>
+    <body>
+        test
+        <div id="app">
+            <greeting></greeting>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script>
+            Vue.component('greeting', {
+                template: '<h1>Welcome to Coder Adobe</h1>'
+            });
+            
+            var demo = new Vue({
+                el: '#app'
+            });
+        </script>
+    </body>
+</html>
